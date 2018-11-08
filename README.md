@@ -6,13 +6,14 @@ IMAGE from ubuntu16.04
 Packages Installed:
     * JAVA 8;
     * Firefox;
-    * vim;
+    * Vim;
     * Geckodriver;
     * Selenium web driver;
-    * git;
-    * pip;
-    * virtualenv;
-    * python-3.6;
+    * Git;
+    * Pip;
+    * Virtualenv;
+    * Pipenv;
+    * Python-3.6;
 
 Ports:
     `Selenium`: 4444:4444;
