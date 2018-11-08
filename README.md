@@ -19,7 +19,7 @@ Ports:
 
 #Download IMAGE
 
-`docker pull rodrigoibka/ubuntu-selenium-firefox-node-webdriver`
+`docker pull rodrigoibka/ubuntu-selenium-firefox-node-webdriver:1.0`
 
 #Test IMAGE
 
