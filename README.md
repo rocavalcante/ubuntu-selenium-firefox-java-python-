@@ -1,20 +1,27 @@
-# ubuntu-selenium-firefox-java-python-
-Dockerfile to web_app
-
 IMAGE from ubuntu16.04
 
 Packages Installed:
+
     * JAVA 8;
     * Firefox;
-    * Vim;
+    * vim;
     * Geckodriver;
     * Selenium web driver;
-    * Git;
-    * Pip;
-    * Virtualenv;
-    * Pipenv;
-    * Python-3.6;
+    * git;
+    * pip;
+    * virtualenv;
+    * python-3.6;
 
 Ports:
+
     `Selenium`: 4444:4444;
-    `web app`: 8080:8080;
+    `app`: 8080:8080;
+
+#Download IMAGE
+
+docker pull rodrigoibka/ubuntu-selenium-firefox-node-webdriver
+
+#Test IMAGE
+`docker run --name foobar --rm -p 8080:8080 -p 4444:4444 -it rodrigoibka/ubuntu-selenium-firefox-node-webdriver:1.0 /bin/bash`
+
+And HAVE FUN :)
