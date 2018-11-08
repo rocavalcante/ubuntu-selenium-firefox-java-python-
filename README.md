@@ -19,9 +19,10 @@ Ports:
 
 #Download IMAGE
 
-docker pull rodrigoibka/ubuntu-selenium-firefox-node-webdriver
+`docker pull rodrigoibka/ubuntu-selenium-firefox-node-webdriver`
 
 #Test IMAGE
+
 `docker run --name foobar --rm -p 8080:8080 -p 4444:4444 -it rodrigoibka/ubuntu-selenium-firefox-node-webdriver:1.0 /bin/bash`
 
 And HAVE FUN :)
